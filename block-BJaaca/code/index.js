@@ -11,7 +11,7 @@ character={
 // - A variable named `age` is predefined with value 20. Add a new key named `character-age` with the value of `age` variable i.e 20 (don't use the value 20)
 
 let age = 20;
-character={characterName: "Arya", 'character-age': age};
+character['character-age']= age;
 
 // - Add a new key `sur name` with the value of the surname of the character i.e "Stark". (Don't remove the space between `sur` and `name`)
 character['sur name']= "Stark";
