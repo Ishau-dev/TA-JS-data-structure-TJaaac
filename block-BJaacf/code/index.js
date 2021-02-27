@@ -10,15 +10,25 @@
     let avg=sum/numbers.length;
     console.log(avg);
 // 4. Find the highest number in the array and print it to the console using console.log()
-    let max= 0;
+    let max= numbers[0];
     for(let i=0; i<numbers.length; i++){
         if(numbers[i]>max){
             max=numbers[i];
         }
-        console.log(max);
+        
     }
+    console.log(max);
 // 5. Find the lowest number in the array and print it to the console using console.log()
 Math.min(...numbers);
+let lowest= numbers[0];
+for(number of numbers){
+
+    if(number< lowest){
+        lowest=number;
+    }
+}
+console.log(lowest);
+
 // 6. Find the even numbers in the array and print them to the console using console.log()
 
 for(let i=0; i<numbers.length; i++){
