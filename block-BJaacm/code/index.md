@@ -27,7 +27,7 @@ let newUser = user;
 - `user.sibling == allBrothers;` true
 - `user.sibling === allBrothers;` false
 - `brothersCopy === allBrothers;` false
-- `brothersCopy == allBrothers;` true
+- `brothersCopy == allBrothers;` false
 - `brothersCopy == user.sibling;` true
 - `brothersCopy === user.sibling;` true
 - `brothersCopy[0] === user.sibling[0];` true
