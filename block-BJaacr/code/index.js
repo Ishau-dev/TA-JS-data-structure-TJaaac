@@ -67,8 +67,10 @@ got.houses[0].people.length
 got.houses[1].people.length
 // 14. Add the name and size of people in an object like {Starks: 4, Lannisters: 6} and log the object
 let nameSize={};
-nameSize.got.houses[0].name=got.houses[0].people.length;
-nameSize.got.houses[1].name=got.houses[1].people.length;
+for(house of got.house){
+  nameSize[house.name]= house.people.length;
+}
+console.log(nameSize);
 // 15. Log the name of all the people of all the houses in got one by one
 for(house of got.houses){
   for(people of house.people){
